@@ -1,6 +1,6 @@
 {
   "name": "svelte-on-any",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Forward all events",
   "module": "dist/index.min.mjs",
   "main": "dist/index.min.js",
