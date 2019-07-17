@@ -1,6 +1,8 @@
-# Svelte on any
+# Svelte on any [DEPRECATED]
 
 Svelte on any is a tiny preprocessor which helps to forward all DOM events.
+
+This in fact is not a good way to forward events since it would attach event listeners for every single event, which is a big performance handicap so please don't use it unless you absolutely have to.
 
 ### Installation
 ```
