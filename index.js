@@ -87,7 +87,10 @@ const events = [
 module.exports = function getPreprocessor(update = i => i) {
   return {
     markup: async ({ content }) => ({
-      code: content.replace("on:any", ` ${update(events).join(" ")} `)
+      code: content.replace(
+        new RegExp(/on:any/, "g"),
+        ` ${update(events).join(" ")} `
+      )
     })
   };
 };
