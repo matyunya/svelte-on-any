@@ -1,0 +1,31 @@
+{
+  "name": "svelte-on-any",
+  "version": "0.0.2",
+  "description": "Forward all events",
+  "module": "dist/index.min.mjs",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyunya/svelte-on-any.git"
+  },
+  "keywords": [
+    "svelte",
+    "event forwarding"
+  ],
+  "author": "Maxim Matyunin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matyunya/svelte-on-any/issues"
+  },
+  "homepage": "https://github.com/matyunya/svelte-on-any#readme",
+  "dependencies": {
+    "svelte": "^3.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "rollup": "^1.16.6"
+  }
+}
